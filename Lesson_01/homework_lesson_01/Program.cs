@@ -5,8 +5,8 @@
 //a = -9 b = -3 -> max = -3
 
 int a = 5, b = 7;
-max = 7;
-min = 5;
+int max = 7;
+int min = 5;
 if(a > max) max = a;
 if(b > max) max = b;
 Console.Write("max = ");
