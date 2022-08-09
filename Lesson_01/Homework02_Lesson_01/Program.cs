@@ -4,56 +4,8 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.Write("Введите число");
-int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число: ");
+int a = Convert.ToInt32(Console.Read());
+if (a % 2 == 0) Console.WriteLine("Четное");
+else Console.WriteLine("Нечетное");
 
-if(n == -3)
-{
-    Console.WriteLine("Нет");
-}
-
-if(n == -2)
-{
-    Console.WriteLine("да");
-}
-
-if(n == -1)
-{
-    Console.WriteLine("Нет");
-}
-
-
-if(n == 1)
-{
-    Console.WriteLine("Нет");
-}
-
-if(n == 2)
-{
-    Console.WriteLine("да");
-}
-
-if(n == 3)
-{
-    Console.WriteLine("Нет");
-}
-
-if(n == 4)
-{
-    Console.WriteLine("да");
-}
-
-if(n == 5)
-{
-    Console.WriteLine("Нет");
-}
-
-if(n == 6)
-{
-    Console.WriteLine("да");
-}
-
-if(n == 7)
-{
-    Console.WriteLine("Нет");
-}
