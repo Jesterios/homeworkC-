@@ -10,3 +10,6 @@
 int value = 11;
 int result = value + value;
 Console.WriteLine($"Result: {result}");
+
+
+Console.WriteLine($"En: {Environment.CurrentDirectory}");
