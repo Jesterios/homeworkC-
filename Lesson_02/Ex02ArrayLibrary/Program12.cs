@@ -1,6 +1,6 @@
-void FillArray(int[] collection);
+void FillArray(int[] collection)
 
-void PrintArray(int[] col);
+void PrintArray(int[] col)
 
 int IndexOf(int[] collection, int find)
 {
